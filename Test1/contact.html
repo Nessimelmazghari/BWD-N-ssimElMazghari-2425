@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostfrogs Hosting - Home</title>
+</head>
+
+<body>
+    <header>
+        <img src="afbeeldingen/logo.png" alt="Hostfrogs">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Over ons</a></li>
+                <li><a href="#">Diensten</a></li>
+                <li><a href="#">Referenties</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Bestel</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Contacteer ons</h2>
+        <img src="afbeeldingen/kikker-ribbit.png" alt="kikker-ribbit">
+        <div>
+            <h3>Algemene info</h3>
+            <p>Hostfrogs bvba<br>Kikkerlaan 169<br>9000 Gent<br>België</p>
+            <p>Tel: +32-9-225 82 92<br>Fax: +32-9-224 46 58<br>Email: <a href="mailto:info@hostfrogs.be">info@hostfrogs.be</a></p>
+        </div>
+
+        <div>
+            <h3>Administratieve info</h3>
+            <p>BTW: BE-0475.284.163<br>Fortis: 001-5853716-96<br>KBC: 445-9662211-59</p>
+        </div>
+
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Uw gegevens</legend>
+                <label for="name">Naam:</label>
+                <input type="text" id="name" name="name" placeholder="Jan Janssens" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="jan_janssens@bedrijf.be" required><br>
+
+                <label for="birthdate">Geboortedatum:</label>
+                <input type="date" id="birthdate" name="birthdate" required><br>
+
+                <label for="ikben">Ik ben:</label>
+                <input type="radio" id="prof" class="ikben" value="professioneel">
+                <label for="prof">Professioneel</label>
+                <input type="radio" id="part" class="ikben" value="particulier">
+                <label for="part">Particulier</label><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Uw vraag</legend>
+                <label for="category">Categorie:</label>
+                <select id="category" name="category">
+                    <option value="email">Email</option>
+                    <option value="website">Website</option>
+                    <option value="cloud">Cloud</option>
+                </select><br>
+
+                <label for="message">Bericht:</label>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+
+                <button type="submit">Verzenden</button>
+            </fieldset>
+        </form>
+
+        <h3>Locatie</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d160404.08832731805!2d3.7145605500000003!3d51.084214599999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c373fcc1fb8ceb%3A0xfe77ed67408384be!2sBurggravenlaan%2C%20Gent!5e0!3m2!1sen!2sbe!4v1729858358766!5m2!1sen!2sbe"
+            width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <footer>
+        <p>&copy; Hostfrogs - <a href="#">Disclaimer &amp; Algemene Voorwaarden</a> - Schrijf je in op onze nieuwsbrief</p>
+    </footer>
+</body>
+
+</html>
