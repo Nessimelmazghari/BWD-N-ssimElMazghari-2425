@@ -1,0 +1,85 @@
+html {
+   background-color: #fff;
+   background-image: url(tile.png);
+   background-position: left;
+   background-size: 25% 50%;
+
+
+}
+
+body {
+   background-image: url(bg.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   border: 10px solid white;
+   box-shadow: 6px 6px 6px 6px rgba(16, 1, 1, 0.204);
+   font-family: 'arial';
+   font-size: larger;
+   height: 550px;
+   margin: 20px auto;
+   padding-top: 0px;
+   padding: 15%;
+   text-align: center;
+   width: 400px;
+}
+
+
+h1 {
+   color: #444;
+   font-family: 'caveat', cursive;
+   font-weight: normal;
+   margin-top: 0px;
+   padding-top: 0px;
+
+
+}
+
+main {
+   color: rgb(28, 28, 217);
+   font-family: 'Indie Flower', cursive;
+   line-height: 1.80;
+   padding-top: 0px;
+   text-align: left;
+   text-transform: capitalize;
+}
+
+main p {
+   margin: 80px 0px 80px 0px;
+   text-align: left;
+   font-size: larger;
+
+}
+
+
+mark {
+   background-color: transparent;
+   font-weight: bold;
+   text-shadow: 0px 3px 4px rgb(253, 106, 209);
+   text-transform: uppercase;
+}
+
+footer {
+
+   color: rgb(54, 54, 147);
+   margin-top: 30px;
+}
+
+footer p {
+   font-family: 'Indie Flower', cursive;
+   line-height: 10px;
+   text-align: right;
+   padding-top: 0px;
+
+
+}
+
+.date {
+   font-size: smaller;
+   text-align: right;
+}
+
+
+span {
+   color: brown;
+}
