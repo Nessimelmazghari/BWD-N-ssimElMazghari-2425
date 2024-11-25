@@ -1,0 +1,461 @@
+
+
+   img {
+      border: 0;
+  }
+  
+  * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
+  
+  /* ===========================================
+     General
+     =========================================== */
+  
+  html {
+      padding: 20px;
+  }
+  
+  body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #dfdfdf;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      font-size: 16px;
+  }
+  
+  a {
+      text-decoration: none;
+  }
+  
+  /* ===========================================
+     Header
+     =========================================== */
+  
+  header {
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+  }
+  
+  header h1 img {
+      display: block;
+  }
+  
+  header h1 span {
+      display: none;
+  }
+  
+  /* ===========================================
+     Menu
+     =========================================== */
+  
+  nav {
+      flex: 1;
+  }
+  
+  nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-align: right;
+  }
+  
+  nav li {
+      display: inline-block;
+      margin: 20px;
+  }
+  
+  nav a {
+      color: #B52025;
+      text-decoration: none;
+      padding: 8px 15px;
+      transition: background-color 0.3s ease;
+      transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+      background-color: #B52025;
+      color: #E2C7C8;
+  }
+  
+  nav .active {
+      background-color: #B52025;
+      color: #E2C7C8;
+  }
+  
+  /* ===========================================
+     Banner
+     =========================================== */
+  
+  #banner {
+      position: relative;
+      background-color: #000;
+      color: white;
+      border-color: #b52025;
+      border-style: solid;
+      border-width: 2px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      background-image: url(banner.jpg);
+      height: 400px; 
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+  }
+  
+  #banner::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 80px;
+      background-color: rgb(0,0,0,0.8);
+      
+  }
+  
+  #banner p {
+      text-align: center;
+      position: absolute;
+      bottom: 20px;
+  }
+  
+  /* ===========================================
+     Main
+     =========================================== */
+  
+  main {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+  }
+  
+  #content {
+      flex: 2;
+  }
+  
+  section {
+      position: relative;
+      margin: 30px;
+  }
+  
+  h3 {
+      font-weight: bold;
+      color: #B52025;
+      position: relative;
+      text-transform: uppercase;
+  }
+  
+  h3::after {
+      content: '\2192'; 
+      position: absolute;
+      margin: 5px;
+  }
+  
+  .minibanner {
+      border: 1px solid #B52025;
+  }
+  
+  .more {
+      text-align: right;
+      margin: 10px;
+  }
+  
+  .more a {
+      display: inline-block;
+      color: #B52025;
+      text-decoration: none;
+      border: 1px solid #B52025;
+      padding: 5px 10px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      margin: 5px;
+  }
+  
+  .more a:hover {
+      background-color: #B52025;
+      color: #E2C7C8;
+  }
+  .more a::after{
+  content: '>>' ;
+  }
+  
+  aside {
+      flex: 1;
+  }
+  
+  /* ===========================================
+     Footer
+     =========================================== */
+  
+  footer {
+      text-align: center;
+      padding: 10px;
+      background-image: linear-gradient(to right, #B52025, #E2C7C8);
+      color: #fff;
+      border: 2px dotted #B52025;
+  }
+  
+  /* ===========================================
+     Newsletter Formulier
+     =========================================== */
+  
+     #email {
+      background-color: #fdeaeb;
+      color: #fff;
+      padding: 5px;
+      margin: 10px;
+      width:200px;
+      * Start Styles
+      *
+      * @author Rogier van der Linde <rogier.vanderlinde@kahosl.be>
+      *
+      */
+     
+     /* RESET */
+     /* ===== */
+     
+     img {
+        border: 0;
+     }
+     
+     * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+     }
+     
+     /* GENERAL */
+     /* ======= */
+     
+     body {
+        color: #666666;
+        font-family: Verdana, Arial, sans-serif;
+        font-size: 12px;
+        padding: 0 20px;
+     }
+     
+     a {
+        color: #982216;
+        text-decoration: none;
+     }
+     
+     a:hover, a:focus {
+        text-decoration: underline;
+     }
+     
+     p {
+        margin-bottom: 10px;
+     }
+     
+     h2 {
+        margin-bottom: 1em;
+     }
+     
+     h3, h4 {
+        margin-bottom: 5px;
+     }
+     
+     /* HEADER */
+     /* ====== */
+     
+     header {
+        background-color: #ffe;
+        border-bottom: 1px solid #CCCCCC;
+        margin-bottom: 30px;
+        padding: 20px 20px;
+     }
+     
+     header {
+        height: 150px;
+     }
+     
+     #logo span {
+        display: none;
+     }
+     
+     nav a {
+        font-family: Georgia, serif;
+        font-size: 14px;
+     }
+     
+     nav a:hover, nav a:focus {
+        text-decoration: none;
+     }
+     
+     nav ul {
+        list-style: none;
+     }
+     
+     nav li a {
+        border-top: 2px solid #fff;
+        color: #666;
+        display: block;
+        font-weight: bold;
+        padding-top: 8px;
+        text-transform: uppercase;
+     }
+     
+     nav li span {
+        color: #999;
+        display: block;
+        margin-top: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        text-transform: lowercase;
+     }
+     
+     nav li a:hover, nav li.active a {
+        border-top-color: #982216;
+     }
+     
+     /* MAIN */
+     /* ====== */
+     
+     /* gallery */
+     
+     #gallery {
+        margin-bottom: 30px;
+        padding: 30px 0;
+     }
+     
+     #gallery section {
+        padding-bottom: 50px;
+     }
+     
+     #gallery ul {
+        list-style: none;
+     }
+     
+     #gallery img {
+        border: 1px solid #E9E9E9;
+        display: block;
+        margin-bottom: 8px;
+        padding: 4px;
+     }
+     
+     #gallery a {
+        background-color: #EEE;
+        color: #982216;
+        display: block;
+        font-weight: bold;
+        padding: 5px 0;
+        text-align: center;
+        width: 100%;
+     }
+     
+     /* CONTENT */
+     /* ======= */
+     
+     main {
+        padding: 20px 20px;
+        padding-bottom: 60px;
+     }
+     
+     main h2 {
+        border-bottom: 1px dotted #CCCCCC;
+        color: #666;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 20px;
+        font-weight: normal;
+        padding-bottom: 8px;
+     }
+     
+     main h3 {
+        font-size: 12px;
+        margin-top: 0;
+     }
+     
+     /* content */
+     
+     #content {
+        line-height: 1.6;
+     }
+     
+     /* content left */
+     
+     main .visual {
+        border: 1px solid #999;
+        padding: 5px;
+        width: 125px;
+     }
+     
+     /* aside right */
+     
+     aside section {
+        margin-bottom: 30px;
+     }
+     
+     aside .thumb {
+        border: 1px solid #999;
+        display: block;
+        height: 90px;
+        padding: 4px;
+        width: 90px;
+     }
+     
+     aside .readmore {
+        text-align: right;
+     }
+     
+     /* DOORMAT */
+     /* ======= */
+     
+     #doormat {
+        background-color: #eee;
+        padding: 40px 20px;
+     }
+     
+     #doormat ul {
+        list-style: none;
+     }
+     
+     #doormat li {
+        margin: 8px 0;
+     }
+     
+     /* FOOTER */
+     /* ======= */
+     
+     footer {
+        background-color: #000;
+        color: #fff;
+        padding: 20px 20px;
+     }
+     
+     footer a {
+        color: #fff;
+     }
+     
+     footer p {
+        margin: 0;
+     }% - 22px);
+      border: 1px solid #B52025;
+      opacity:0.8 ;
+  }
+  
+  button[type="submit"] {
+      background-color: #a13b3f;
+      display: block;
+      width: 20%;
+      margin: 5px;
+      padding: 5px;
+      color: #E2C7C8;
+      border: 1px solid #B52025;
+      cursor: pointer;
+      transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+      background-color: #E2C7C8;
+      color: #B52025;
+  }============ */
+
+
+
+
+
